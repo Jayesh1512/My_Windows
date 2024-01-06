@@ -1,0 +1,25 @@
+.app img{
+    width:3vw;
+    margin-left: 15px;
+}
+
+.app{
+    
+    margin-top: 20px;
+}
+
+ .appname{
+    margin-left: -1px;
+    width:80px;
+    text-align: center;
+    font-size: smaller  ;
+    /* font-family:'Tahoma','Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+
+}
+
+.timetext{
+    margin-left: 10px;
+}
+

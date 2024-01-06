@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Press+Start+2P&family=Yeseva+One&display=swap');
+
+
+.body{
+    display: flex;
+    width: 50vw;
+    height:70vh;
+    margin-top: -30vh;
+    margin-left: 25vw;
+    z-index: 1;
+    background-color: #0464e4;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 3px 3px ;
+    box-shadow: inset 0 0 5px white;
+}
+
+.inner-box{
+    margin-bottom: 0.75vh;
+    display:flex;
+    width: 49vw;
+    height:65vh;
+    background-color: aliceblue;
+}
+
+.app-name{
+    display: flex;
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 0.39vw;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+
+.content{
+    width:inherit;
+}
+
+.myname{
+    margin-top: 2vw;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+.engineer{
+    margin-top: 0.5vw;
+    font-size:medium;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.content{
+    overflow-y: scroll;
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .body{
+        display: flex;
+        width: 50vw;
+        height:70vh;
+        margin-top: -25vh;
+        margin-left: 25vw;
+        z-index: 1;
+        background-color: #0464e4;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px 10px 3px 3px ;
+        box-shadow: inset 0 0 5px white;
+    }
+
+    .inner-box{
+        margin-bottom: 0.75vh;
+        display:flex;
+        width: 49vw;
+        height:65vh;
+        background-color: aliceblue;
+    }
+
+    .myname{
+        margin-top: 2vw;
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'Yeseva One', cursive;
+    }
+    
+    .engineer{
+        margin-top: 0.5vw;
+        font-size:smaller;
+        text-align: center;
+        font-family: 'Yeseva One', cursive;
+        padding:20px;
+    }
+
+    .inner-box{
+        margin-bottom: 0.75vh;
+        display:flex;
+        width: 47vw;
+        height:65vh;
+        background-color: aliceblue;
+    }
+
+
+    .app-name{
+        display: flex;
+        width:50vw;
+        margin-left: 4vw;
+        margin-top: 0.7vw;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        
+    }    
+
+}
